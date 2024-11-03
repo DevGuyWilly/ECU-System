@@ -1,0 +1,197 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U log%b			log.adb			029c0580 NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.enumeration_aux%s  a-tienau.adb	a-tienau.ali
+Z ada.text_io.enumeration_io%s
+Z ada.text_io.generic_aux%s  a-tigeau.adb	a-tigeau.ali
+Z ada.text_io.integer_aux%s
+Z ada.text_io.integer_io%s
+W console%s		console.adb		console.ali
+W ecu%s			ecu.adb			ecu.ali
+W engine%s		engine.adb		engine.ali
+W sensors%s		sensors.adb		sensors.ali
+W system%s		system.ads		system.ali
+Z system.img_biu%s	s-imgbiu.ads		s-imgbiu.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.img_llb%s	s-imgllb.ads		s-imgllb.ali
+Z system.img_lli%s	s-imglli.ads		s-imglli.ali
+Z system.img_lllb%s	s-imglllb.ads		s-imglllb.ali
+Z system.img_llli%s	s-imgllli.ads		s-imgllli.ali
+Z system.img_lllw%s	s-imglllw.ads		s-imglllw.ali
+Z system.img_llw%s	s-imgllw.ads		s-imgllw.ali
+Z system.img_wiu%s	s-imgwiu.ads		s-imgwiu.ali
+Z system.val_int%s	s-valint.ads		s-valint.ali
+Z system.val_lli%s	s-vallli.ads		s-vallli.ali
+Z system.val_llli%s	s-valllli.ads		s-valllli.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U log%s			log.ads			a17f7763 EE NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tienau.ads		20210520051130 6a9c157b ada.text_io.enumeration_aux%s
+D a-tienio.ads		20210520051130 2e79c9bf ada.text_io.enumeration_io%s
+D a-tienio.adb		20210520051130 c9e6b5af ada.text_io.enumeration_io%b
+D a-tigeau.ads		20210520051130 e643cdf3 ada.text_io.generic_aux%s
+D a-tiinau.ads		20210520051130 1c79f78d ada.text_io.integer_aux%s
+D a-tiinau.adb		20210520051130 89004916 ada.text_io.integer_aux%b
+D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
+D a-tiinio.adb		20210520051130 b79731f4 ada.text_io.integer_io%b
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D console.ads		20241023130714 a9c656e6 console%s
+D ecu.ads		20241023132040 84697d1b ecu%s
+D engine.ads		20241023125510 326f8cec engine%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D log.ads		20241017202718 a17f7763 log%s
+D log.adb		20241018184618 6de09767 log%b
+D sensors.ads		20241023130232 f0718a0d sensors%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-imageb.ads		20210520051134 3953e0e6 system.image_b%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imagew.ads		20210520051134 9d2dd267 system.image_w%s
+D s-imgbiu.ads		20210520051134 0a8e1c41 system.img_biu%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-imgllb.ads		20210520051134 47d0db9f system.img_llb%s
+D s-imglli.ads		20210520051134 3723d9ff system.img_lli%s
+D s-imglllb.ads		20210520051134 30212eed system.img_lllb%s
+D s-imgllli.ads		20210520051134 5cf3dc07 system.img_llli%s
+D s-imglllw.ads		20210520051134 9e2b0560 system.img_lllw%s
+D s-imgllw.ads		20210520051134 bf9c9c15 system.img_llw%s
+D s-imgwiu.ads		20210520051134 912a95f2 system.img_wiu%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-valint.ads		20210520051134 e7fcadb7 system.val_int%s
+D s-vallli.ads		20210520051134 0767e6f3 system.val_lli%s
+D s-valllli.ads		20210520051134 f758e795 system.val_llli%s
+D s-vallllu.ads		20210520051134 87566fa4 system.val_lllu%s
+D s-valllu.ads		20210520051134 660d930f system.val_llu%s
+D s-valuns.ads		20210520051134 dac7b45d system.val_uns%s
+D s-valuei.ads		20210520051134 978dd0a6 system.value_i%s
+D s-valueu.ads		20210520051134 7b8fccf5 system.value_u%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D text_io.ads		20210520051136 21b2c898 text_io%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [update log 20 13 none]
+G c Z s b [open_file log 22 13 none]
+G c Z s b [close_file log 24 13 none]
+G c Z b b [get log__sensor_inout 31 14 21_4]
+G c Z b b [get log__sensor_inout 34 14 21_4]
+G c Z b b [put log__sensor_inout 40 14 21_4]
+G c Z b b [put log__sensor_inout 52 14 21_4]
+G c Z b b [get log__sensor_inout 62 14 21_4]
+G c Z b b [put log__sensor_inout 69 14 21_4]
+G c Z b b [get log__integer_inout 51 14 23_4]
+G c Z b b [get log__integer_inout 59 14 23_4]
+G c Z b b [put log__integer_inout 68 14 23_4]
+G c Z b b [put log__integer_inout 80 14 23_4]
+G c Z b b [get log__integer_inout 90 14 23_4]
+G c Z b b [put log__integer_inout 97 14 23_4]
+G c Z b b [get log__integer_inout__aux_int 52 14 48_4_23_4]
+G c Z b b [gets log__integer_inout__aux_int 57 14 48_4_23_4]
+G c Z b b [put log__integer_inout__aux_int 62 14 48_4_23_4]
+G c Z b b [puts log__integer_inout__aux_int 68 14 48_4_23_4]
+G c Z b b [get log__integer_inout__aux_lli 52 14 56_4_23_4]
+G c Z b b [gets log__integer_inout__aux_lli 57 14 56_4_23_4]
+G c Z b b [put log__integer_inout__aux_lli 62 14 56_4_23_4]
+G c Z b b [puts log__integer_inout__aux_lli 68 14 56_4_23_4]
+G c Z b b [get log__integer_inout__aux_llli 52 14 64_4_23_4]
+G c Z b b [gets log__integer_inout__aux_llli 57 14 64_4_23_4]
+G c Z b b [put log__integer_inout__aux_llli 62 14 64_4_23_4]
+G c Z b b [puts log__integer_inout__aux_llli 68 14 64_4_23_4]
+G r c none [update log 20 13 none] [read_sensor sensors 34 13 none]
+G r c none [update log 20 13 none] [read_sensor_majority sensors 41 13 none]
+G r c none [update log 20 13 none] [ispowerswitchon console 60 13 none]
+G r c none [update log 20 13 none] [isenabledsafemode console 45 13 none]
+G r c none [update log 20 13 none] [isenabledalarm console 30 13 none]
+G r c none [update log 20 13 none] [isenabled engine 30 13 none]
+G r c none [update log 20 13 none] [isaccessible engine 51 13 none]
+X 9 a-textio.ads
+65P9*File_Type 25|26r22
+67n32*Out_File{67E9} 25|74r40
+97U14*Create 25|74s15
+127U14*Close 25|100s15
+256U14*New_Line 25|69s15
+457U14*Put 25|32s19 37s18 40s18 43s18 45s18 48s22 50s18 53s18 55s18 58s19
+. 60s18 62s18 65s18 67s18
+496U14*Put_Line 25|75s19 77s19 79s19 81s15 83s19 85s19 92s15 94s15 96s15
+. 98s15
+X 11 a-tienio.ads
+26k21*Enumeration_IO 76e31 25|21r40
+X 16 a-tiinio.ads
+46k21*Integer_IO 108e27 25|23r41
+68U14 Put 25|33s21[23] 34s21[23] 35s21[23] 39s24[23] 57s25[23]
+X 19 console.ads
+7K9*Console 64e12 25|17w24 42r10 47r14 52r14 57r39
+11i4*AlarmCnt{integer} 25|57r47
+30V13*isEnabledAlarm{boolean} 25|52s22
+45V13*isEnabledSafeMode{boolean} 25|47s22
+60V13*isPowerSwitchON{boolean} 25|42s18
+X 20 ecu.ads
+4K9*ECU 52e8 25|17w41
+X 21 engine.ads
+7K9*Engine 57e11 25|17w33 59r10 64r10
+30V13*isEnabled{boolean} 25|59s17
+51V13*isAccessible{boolean} 25|64s17
+X 24 log.ads
+18K9*Log 26l5 26e8 25|19b14 103l5 103t8
+20U13*Update 25|28b14 70l8 70t14
+22U13*Open_File 25|72b14 88l8 88t17
+24U13*Close_File 25|90b14 101l8 101t18
+X 25 log.adb
+21K12 Sensor_INOUT[11|26]
+23K12 Integer_INOUT[16|46] 33r7 34r7 35r7 39r10 57r11
+26p4 Log_File{9|65P9} 32r23 33r25 34r25 35r25 37r22 39r28 40r22 43r22 45r22
+. 48r26 50r22 53r22 55r22 57r29 58r23 60r22 62r22 65r22 67r22 69r24 74m22
+. 74r22 75r28 77r28 79r28 81r24 83r28 85r28 92r24 94r24 96r24 98r24 100m21
+. 100r21
+X 26 sensors.ads
+7K9*Sensors 25|17w15 18r10 21r55 33r35 34r35 35r35 36r10 39r38 26|51e12
+15I12*Sensor_Type{integer} 25|18r18 21r63
+34V13*Read_Sensor{15I12} 25|33s43 34s43 35s43
+41V13*Read_Sensor_Majority{15I12} 25|36s18 39s46
+X 62 text_io.ads
+24K9*Text_IO=24:29 25|17w6 21r32 23r33 26r14 32r11 37r10 40r10 43r10 45r10
+. 48r14 50r10 53r10 55r10 58r11 60r10 62r10 65r10 67r10 69r7 74r7 74r32 75r11
+. 77r11 79r11 81r7 83r11 85r11 92r7 94r7 96r7 98r7 100r7
+

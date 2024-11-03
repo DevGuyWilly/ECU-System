@@ -1,0 +1,37 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U engine%b		engine.adb		f838b902 NE OO PK
+
+U engine%s		engine.ads		326f8cec EB NE OO PK
+
+D engine.ads		20241023125510 326f8cec engine%s
+D engine.adb		20241023125502 ca5735ee engine%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [enable engine 16 14 none]
+G c Z s b [disable engine 23 14 none]
+G c Z s b [isenabled engine 30 13 none]
+G c Z s b [openaccess engine 37 14 none]
+G c Z s b [closeaccess engine 44 14 none]
+G c Z s b [isaccessible engine 51 13 none]
+X 1 engine.ads
+7K9*Engine 57l5 57e11 2|3b14 49l5 49t11
+11b4*StateEnabled{boolean} 18r27 19r18 19r34 20r14 25r27 26r18 26r34 27r14
+. 32r26 33r38 34r33 2|8r14 9m10 16r10 17m10 24r14
+12b4*AccessOpened{boolean} 39r27 40r18 40r34 41r14 46r27 47r18 47r34 48r14
+. 53r26 54r41 55r36 2|30r14 31m10 38r10 39m10 46r14
+16U14*Enable 2|6b14 11l8 11t14
+23U14*Disable 2|14b14 19l8 19t15
+30V13*isEnabled{boolean} 33r18 34r14 2|22b13 25l8 25t17
+37U14*OpenAccess 2|28b14 33l8 33t18
+44U14*CloseAccess 2|36b14 41l8 41t19
+51V13*isAccessible{boolean} 54r18 55r14 2|44b13 47l8 47t20
+

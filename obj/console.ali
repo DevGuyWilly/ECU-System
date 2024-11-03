@@ -1,0 +1,48 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U console%b		console.adb		a6944800 NE OO PK
+
+U console%s		console.ads		a9c656e6 EB NE OO PK
+
+D console.ads		20241023130714 a9c656e6 console%s
+D console.adb		20241023131730 0f521ee6 console%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [enablealarm console 16 13 none]
+G c Z s b [disablealarm console 25 14 none]
+G c Z s b [isenabledalarm console 30 13 none]
+G c Z s b [enablesafemode console 35 14 none]
+G c Z s b [disablesafemode console 40 14 none]
+G c Z s b [isenabledsafemode console 45 13 none]
+G c Z s b [poweron console 50 14 none]
+G c Z s b [poweroff console 55 14 none]
+G c Z s b [ispowerswitchon console 60 13 none]
+X 1 console.ads
+7K9*Console 64l5 64e12 2|2b14 63l5 63t12
+10b4*AlarmON{boolean} 17r28 18r18 19r41 21r16 22r20 26r27 27r18 27r29 28r14
+. 31r26 32r43 33r38 2|6r14 9m7 14r10 15m10 22r14
+11i4*AlarmCnt{integer} 17r37 19r18 19r31 20r13 22r46 22r57 23r22 23r33 2|7m10
+. 7r22
+12b4*PowerModeON{boolean} 51r27 52r18 52r33 53r14 56r27 57r18 57r33 58r14
+. 61r26 62r44 63r39 2|47r14 48m10 54r10 55m10 61r14
+13b4*SafeModeON{boolean} 36r27 37r18 37r32 38r14 41r27 42r18 42r32 43r14
+. 46r26 47r46 48r41 2|28r14 29m10 35r10 36m10 42r14
+16U13*EnableAlarm 2|4b14 10l8 10t19
+25U14*DisableAlarm 2|12b14 17l8 17t20
+30V13*isEnabledAlarm{boolean} 32r18 33r14 2|20b13 23l8 23t22
+35U14*EnableSafeMode 2|26b14 31l8 31t22
+40U14*DisableSafeMode 2|33b14 38l8 38t23
+45V13*isEnabledSafeMode{boolean} 47r18 48r14 2|40b13 43l8 43t25
+50U14*PowerON 2|45b14 50l8 50t15
+55U14*PowerOFF 2|52b14 57l8 57t16
+60V13*isPowerSwitchON{boolean} 62r18 63r14 2|59b13 62l8 62t23
+

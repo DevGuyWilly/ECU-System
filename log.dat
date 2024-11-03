@@ -1,0 +1,72 @@
+|------------------------------------- ECU LOG ----------------------------------|
+|                             |                                |                 |
+|           SENSORS           |             CONSOLE            |      ENGINE     |
+|                             | POWER  | SAFE  | ALARM | ALARM |                 |
+| SEN-1  SEN-2  SEN-3  MAJOR  | SWITCH | MODE  | MODE  | COUNT |  STATE   ACCESS |
+|--------------------------------------------------------------------------------|
+|    0      0      0      0   |   OFF  |   OFF |   OFF |    0  | -------  CLOSED |
+|    0      0      0      0   |   OFF  | ON    |   OFF |    0  | -------  ------ |
+|    0      0      0      0   | ON     | ON    |   OFF |    0  | -------  ------ |
+|    0      0      0      0   | ON     | ON    |   OFF |    0  | ENABLED  ------ |
+|   10     10     10     10   | ON     | ON    |   OFF |    0  | ENABLED  ------ |
+|   10     10     10     10   | ON     | ON    |   OFF |    0  | ENABLED  ------ |
+|   20     20     20     20   | ON     | ON    |   OFF |    0  | ENABLED  ------ |
+|   20     20     20     20   | ON     | ON    |   OFF |    0  | ENABLED  ------ |
+|   40     40     40     40   | ON     | ON    |   OFF |    0  | ENABLED  ------ |
+|   40     40     40     40   | ON     |   OFF |   OFF |    0  | ENABLED  CLOSED |
+|  130    130    130    130   | ON     |   OFF |   OFF |    0  | ENABLED  CLOSED |
+|  130    130    130    130   | ON     |   OFF |   OFF |    0  | -------  CLOSED |
+|  120    120    120    120   | ON     |   OFF |   OFF |    0  | -------  CLOSED |
+|  120    120    120    120   | ON     |   OFF |   OFF |    0  | ENABLED  CLOSED |
+|  135    135    135    135   | ON     |   OFF |   OFF |    0  | ENABLED  CLOSED |
+|  135    135    135    135   | ON     |   OFF |   OFF |    0  | -------  CLOSED |
+|  140    140    140    140   | ON     |   OFF |   OFF |    0  | -------  CLOSED |
+|  140    140    140    140   | ON     |   OFF | ON    |    1  | -------  CLOSED |
+|  130    130    130    130   | ON     |   OFF | ON    |    1  | -------  CLOSED |
+|  130    130    130    130   | ON     |   OFF |   OFF |    1  | -------  CLOSED |
+|   90     90     90     90   | ON     |   OFF |   OFF |    1  | -------  CLOSED |
+|   90     90     90     90   | ON     |   OFF |   OFF |    1  | ENABLED  CLOSED |
+|   95     95     95     95   |   OFF  |   OFF |   OFF |    1  | ENABLED  CLOSED |
+|   95     95     95     95   |   OFF  |   OFF |   OFF |    1  | -------  CLOSED |
+|   50     50     50     50   |   OFF  |   OFF |   OFF |    1  | -------  CLOSED |
+|   50     50     50     50   |   OFF  |   OFF |   OFF |    1  | -------  CLOSED |
+|   20     20     20     20   |   OFF  |   OFF |   OFF |    1  | -------  CLOSED |
+|   20     20     20     20   |   OFF  | ON    |   OFF |    1  | -------  ------ |
+|   10     10     10     10   |   OFF  | ON    |   OFF |    1  | -------  ------ |
+|   10     10     10     10   |   OFF  | ON    |   OFF |    1  | -------  ------ |
+|    0      0      0      0   |   OFF  | ON    |   OFF |    1  | -------  ------ |
+|    0      0      0      0   |   OFF  | ON    |   OFF |    1  | -------  ------ |
+|    0      0      0      0   | ON     | ON    |   OFF |    1  | -------  ------ |
+|    0      0      0      0   | ON     | ON    |   OFF |    1  | ENABLED  ------ |
+|   10     10     20     10   | ON     | ON    |   OFF |    1  | ENABLED  ------ |
+|   10     10     20     10   | ON     | ON    |   OFF |    1  | ENABLED  ------ |
+|   10     20     15     10   | ON     | ON    |   OFF |    1  | ENABLED  ------ |
+|   10     20     15     10   | ON     | ON    |   OFF |    1  | ENABLED  ------ |
+|   -1     20     20     20   | ON     | ON    |   OFF |    1  | ENABLED  ------ |
+|   -1     20     20     20   | ON     | ON    |   OFF |    1  | ENABLED  ------ |
+|   -1     -1     20  UNDEF   | ON     | ON    |   OFF |    1  | ENABLED  ------ |
+|   -1     -1     20  UNDEF   | ON     | ON    |   OFF |    1  | ENABLED  ------ |
+|   29     29     29     29   | ON     | ON    |   OFF |    1  | ENABLED  ------ |
+|   29     29     29     29   | ON     | ON    |   OFF |    1  | ENABLED  ------ |
+|   30     30     30     30   | ON     | ON    |   OFF |    1  | ENABLED  ------ |
+|   30     30     30     30   | ON     |   OFF |   OFF |    1  | ENABLED  CLOSED |
+|  129    129    129    129   | ON     |   OFF |   OFF |    1  | ENABLED  CLOSED |
+|  129    129    129    129   | ON     |   OFF |   OFF |    1  | ENABLED  CLOSED |
+|  130    130    130    130   | ON     |   OFF |   OFF |    1  | ENABLED  CLOSED |
+|  130    130    130    130   | ON     |   OFF |   OFF |    1  | -------  CLOSED |
+|  129    129    129    129   | ON     |   OFF |   OFF |    1  | -------  CLOSED |
+|  129    129    129    129   | ON     |   OFF |   OFF |    1  | ENABLED  CLOSED |
+|   90     90     90     90   |   OFF  |   OFF |   OFF |    1  | ENABLED  CLOSED |
+|   90     90     90     90   |   OFF  |   OFF |   OFF |    1  | -------  CLOSED |
+|   40     40     40     40   |   OFF  |   OFF |   OFF |    1  | -------  CLOSED |
+|   40     40     40     40   |   OFF  |   OFF |   OFF |    1  | -------  CLOSED |
+|   20     20     20     20   |   OFF  |   OFF |   OFF |    1  | -------  CLOSED |
+|   20     20     20     20   |   OFF  | ON    |   OFF |    1  | -------  ------ |
+|   10     10     10     10   |   OFF  | ON    |   OFF |    1  | -------  ------ |
+|   10     10     10     10   |   OFF  | ON    |   OFF |    1  | -------  ------ |
+|    0      0      0      0   |   OFF  | ON    |   OFF |    1  | -------  ------ |
+|    0      0      0      0   |   OFF  | ON    |   OFF |    1  | -------  ------ |
+|--------------------------------------------------------------------------------|
+Note that the ENGINE STATE is implicitly DISABLED if it is not explicitly shown   
+above as ENABLED. Likewise, ENGINE ACCESS is implicity OPEN if it is not explicitly
+shown above as CLOSED.                                                             

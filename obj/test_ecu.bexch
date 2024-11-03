@@ -1,0 +1,25 @@
+[GENERATED OBJECT FILE]
+b__test_ecu.o
+[PROJECT FILES]
+C:\Users\HP\Documents\ECUMain\ECU\ecu.gpr
+20241017202426 c0692e8c547ca329c26346e66286f7b3
+[BOUND OBJECT FILES]
+C:\Users\HP\Documents\ECUMain\ECU\obj\console.o
+C:\Users\HP\Documents\ECUMain\ECU\obj\engine.o
+C:\Users\HP\Documents\ECUMain\ECU\obj\sensors.o
+C:\Users\HP\Documents\ECUMain\ECU\obj\ecu.o
+C:\Users\HP\Documents\ECUMain\ECU\obj\env.o
+C:\Users\HP\Documents\ECUMain\ECU\obj\log.o
+C:\Users\HP\Documents\ECUMain\ECU\obj\test_ecu.o
+[GENERATED SOURCE FILES]
+b__test_ecu.ads
+b__test_ecu.adb
+b__test_ecu.ali
+[RESULTING OPTIONS]
+-LC:\Users\HP\Documents\ECUMain\ECU\obj\
+-LC:\Users\HP\Documents\ECUMain\ECU\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

@@ -1,0 +1,77 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ecu%b			ecu.adb			dc0ad621 NE OO PK IU
+
+U ecu%s			ecu.ads			efb12d1c EB NE OO PK IU
+W console%s		console.adb		console.ali
+W engine%s		engine.adb		engine.ali
+W sensors%s		sensors.adb		sensors.ali
+
+D console.ads		20241023130714 a9c656e6 console%s
+D ecu.ads		20241023132040 84697d1b ecu%s
+D ecu.adb		20241028202118 5863ab3a ecu%b
+D engine.ads		20241023125510 326f8cec engine%s
+D sensors.ads		20241023130232 f0718a0d sensors%s
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [controller ecu 13 14 none]
+G r c none [controller ecu 13 14 none] [read_sensor_majority sensors 41 13 none]
+G r c none [controller ecu 13 14 none] [disable engine 23 14 none]
+G r c none [controller ecu 13 14 none] [enablealarm console 16 13 none]
+G r c none [controller ecu 13 14 none] [disablealarm console 25 14 none]
+G r c none [controller ecu 13 14 none] [closeaccess engine 44 14 none]
+G r c none [controller ecu 13 14 none] [disablesafemode console 40 14 none]
+G r c none [controller ecu 13 14 none] [openaccess engine 37 14 none]
+G r c none [controller ecu 13 14 none] [enablesafemode console 35 14 none]
+G r c none [controller ecu 13 14 none] [enable engine 16 14 none]
+X 1 console.ads
+7K9*Console 64e12 2|2w14 15r62 16r51 16r68 17r30 21r75 22r9 22r30 22r80 23r9
+. 23r29 23r78 24r9 24r32 33r10 44r13 46r33 48r14 48r38 49r13 49r32 51r13
+. 51r32 3|12r16 13r16 17r10 23r10 26r10 30r10
+10b4*AlarmON{boolean} 2|16r59 22r88 23r17 23r37 44r21 48r22 48r46
+11i4*AlarmCnt{integer} 2|15r70 22r17 22r38 23r86 33r18 49r21 49r40 51r21
+. 51r40 3|12r24
+12b4*PowerModeON{boolean} 2|17r38 21r83 3|30r18
+13b4*SafeModeON{boolean} 2|16r76 24r17 24r40 46r41
+16U13*EnableAlarm 3|13s24
+25U14*DisableAlarm 3|17s18
+35U14*EnableSafeMode 3|26s18
+40U14*DisableSafeMode 3|23s18
+X 2 ecu.ads
+4K9*ECU 52l5 52e8 3|3b14 43l5 43t8
+8i4*Safety_Threshold{integer} 38r26 38r63 43r26 43r63 3|9r25 9r58 30r49
+9i4*Access_Threshold{integer} 41r27 3|21r26
+11i4*Last_Temp{integer} 15r30 20r9 21r96 22r69 23r46 36r11 38r14 38r47 38r84
+. 38r96 41r14 43r14 43r47 43r84 43r96 3|9r46 10r28 41m7
+13U14*Controller 3|5b14 42l8 42t18
+29i19 I{5|16I12} 30r33
+X 3 ecu.adb
+6i7 Current_Temp{integer} 9r10 10r13 21r10 30r34 41r20
+X 4 engine.ads
+7K9*Engine 2|2w6 15r41 16r30 21r9 21r33 25r9 25r33 39r17 41r53 46r11 3|11r13
+. 22r10 25r10 31r17 32r13 35r13 36r13 4|57e11
+11b4*StateEnabled{boolean} 2|15r48 21r16 21r40 39r24 3|31r24 35r20
+12b4*AccessOpened{boolean} 2|16r37 25r16 25r40 41r60 46r18
+16U14*Enable 3|32s20
+23U14*Disable 3|11s20 36s20
+37U14*OpenAccess 3|25s17
+44U14*CloseAccess 3|22s17
+X 5 sensors.ads
+7K9*Sensors 2|2w23 17r51 20r22 21r54 22r48 23r57 24r52 25r54 29r24 30r13
+. 30r39 36r24 3|6r32 5|51e12
+13i4*Undef_Value{integer} 2|30r47 36r32
+15I12*Sensor_Type{integer}
+16I12*Sensor_Index_Type{integer} 2|29r32
+17A9*Sensors_Type(15I12)<integer>
+20a4*SensorState{17A9} 2|17r59 20r30 21r62 22r56 23r65 24r60 25r62 30r21
+41V13*Read_Sensor_Majority{15I12} 3|6s40
+

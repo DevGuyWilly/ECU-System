@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>C:\Users\HP\Documents\ECUMain\ECU\ecu.gpr</vfs_file>
+    <file_marker column=" 1" line=" 67" >
+      <vfs_project>C:\Users\HP\Documents\ECUMain\ECU\ecu.gpr</vfs_project>
+      <vfs_file>C:\Users\HP\Documents\ECUMain\ECU\src\console.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 58" >
+      <vfs_project>C:\Users\HP\Documents\ECUMain\ECU\ecu.gpr</vfs_project>
+      <vfs_file>C:\Users\HP\Documents\ECUMain\ECU\src\engine.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 53" >
+      <vfs_project>C:\Users\HP\Documents\ECUMain\ECU\ecu.gpr</vfs_project>
+      <vfs_file>C:\Users\HP\Documents\ECUMain\ECU\src\sensors.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 14" >
+      <vfs_project>C:\Users\HP\Documents\ECUMain\ECU\ecu.gpr</vfs_project>
+      <vfs_file>C:\Users\HP\Documents\ECUMain\ECU\src\ecu.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 3" line=" 16" >
+      <vfs_project>C:\Users\HP\Documents\ECUMain\ECU\ecu.gpr</vfs_project>
+      <vfs_file>C:\Users\HP\Documents\ECUMain\ECU\src\ecu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 8" >
+      <vfs_project>C:\Users\HP\Documents\ECUMain\ECU\ecu.gpr</vfs_project>
+      <vfs_file>C:\Users\HP\Documents\ECUMain\ECU\src\console.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 38" line=" 13" >
+      <vfs_project>C:\Users\HP\Documents\ECUMain\ECU\ecu.gpr</vfs_project>
+      <vfs_file>C:\Users\HP\Documents\ECUMain\ECU\src\engine.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 80" line=" 9" >
+      <vfs_project>C:\Users\HP\Documents\ECUMain\ECU\ecu.gpr</vfs_project>
+      <vfs_file>C:\Users\HP\Documents\ECUMain\ECU\src\sensors.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
